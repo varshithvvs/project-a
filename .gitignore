@@ -157,7 +157,7 @@ cython_debug/
 .venv
 
 # Visual Studio Code relevant settings/debug config
-.vscode/launch.json
+.vscode
 
 # pytest files
 junit/*
