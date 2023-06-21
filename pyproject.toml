@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "project-a"
+version = "0.1.0"
+description = "project-a is an opensource project to create MLOps ecosystem with existing opensource tools"
+authors = ["varshithvvs"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "project_a"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
